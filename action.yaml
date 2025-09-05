@@ -8,9 +8,6 @@ inputs:
   max-monthly-delta:
     description: "Fail if monthly cost delta exceeds this (USD)"
     default: "100"
-permissions:
-  contents: read
-  pull-requests: write
 branding:
   icon: "shield"
   color: "blue"
