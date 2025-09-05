@@ -1,0 +1,16 @@
+name: "Cost Guardrails"
+description: "Block expensive or risky IaC changes at PR time (MVP)"
+author: "KAI NING"
+runs:
+  using: "node20"
+  main: "dist/index.js"
+inputs:
+  max-monthly-delta:
+    description: "Fail if monthly cost delta exceeds this (USD)"
+    default: "100"
+permissions:
+  contents: read
+  pull-requests: write
+branding:
+  icon: "shield"
+  color: "blue"

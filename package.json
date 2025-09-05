@@ -1,0 +1,11 @@
+{
+    "name": "cost-guardrails-action",
+    "version": "0.0.1",
+    "private": true,
+    "main": "dist/index.js",
+    "dependencies": {
+      "@actions/core": "^1.11.1",
+      "@actions/github": "^6.0.0"
+    }
+  }
+  
