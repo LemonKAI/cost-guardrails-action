@@ -8,6 +8,9 @@ inputs:
   max-monthly-delta:
     description: "Fail if monthly cost delta exceeds this (USD)"
     default: "100"
+outputs:
+  ok:
+    description: "Whether checks passed"
 branding:
   icon: "shield"
   color: "blue"
